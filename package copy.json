@@ -1,0 +1,35 @@
+{
+  "name": "@the3rdc/eventlocker",
+  "version": "2.0.2",
+  "description": "very specific event store for distributed systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the3rdc/eventlocker.git"
+  },
+  "keywords": [
+    "events",
+    "level",
+    "graph",
+    "store",
+    "distributed"
+  ],
+  "author": "Cody Crumrine",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/the3rdc/eventlocker/issues"
+  },
+  "homepage": "https://github.com/the3rdc/eventlocker#readme",
+  "dependencies": {
+    "crummydb": "^0.3.0",
+    "level": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "rimraf": "^2.6.3"
+  }
+}
